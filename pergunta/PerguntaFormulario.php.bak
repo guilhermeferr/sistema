@@ -1,0 +1,28 @@
+<?php include("cabecalho.php"); ?>
+<div >
+	<form method="POST" action="index.php?teste.php">
+	
+		<label for="pergunta">Pergunta</label>
+		<textarea type="text" name="pergunta" id="pergunta" cols="50" rows="5"></textarea>
+		<br/>
+		<label for="respostaCorreta">Resposta Correta</label>
+		<textarea type="text" name="respostaCorreta" id="respostaCorreta" cols="50" rows="5"></textarea>
+		<br/>
+		<label for="respostaErrada1">Resposta Errada1</label>
+		<textarea type="text" name="respostaErrada1" id="respostaErrada1" cols="50" rows="5"></textarea>
+		<br/>
+		<label for="respostaErrada2">Resposta Errada2</label>
+		<textarea type="text" name="respostaErrada2" id="respostaErrada2" cols="50" rows="5"></textarea>
+		<br/>
+		<label for="respostaErrada3">Resposta Errada3</label>
+		<textarea type="text" name="respostaErrada3" id="respostaErrada3" cols="50" rows="5"></textarea>
+		<br/>
+		<label for="respostaErrada4">Resposta Errada4</label>
+		<textarea type="text" name="respostaErrada4" id="respostaErrada4" cols="50" rows="5"></textarea><br/>
+		
+		<input type="submit" value="Cadastrar" class="btn btn-success btn-lg"/>
+
+	</form>
+</div>
+</body>
+</html>

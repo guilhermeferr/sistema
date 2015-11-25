@@ -1,0 +1,12 @@
+CREATE TABLE `pense`.`pergunta` (
+  `idPergunta` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  `pergunta` TEXT NOT NULL ,
+  `respostaCorreta` TEXT NOT NULL ,
+  `respostaErrada1` TEXT NOT NULL,
+  `respostaErrada2` TEXT NOT NULL,
+  `respostaErrada3` TEXT NOT NULL ,
+  `respostaErrada4` TEXT NOT NULL,
+  `idCategoria` INTEGER UNSIGNED NOT NULL DEFAULT 1,
+  PRIMARY KEY(`idPergunta`)
+);
+
